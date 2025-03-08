@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta name="viewport " content="with=device-width", initial scale="1.0">
+        <title> Akademiya </title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links">
+                    <ul> 
+                        <li><a href="frontpage.html"><b> HOME </a></li>
+                        <li><a href="staff.html"> STAFF </a></li>
+                        <li><a href="akasha.html"> AKASHA </a></li>
+                        <li><a href="login.html" class="split"> LOG IN </b></a></li>
+                    </ul>
+                </div>
+            </nav>
+       
+            <form onsubmit="sendmail();">
+        <div class="wrapper">
+            <div class="r_form_wrap">
+                
+                <div class="title">
+                    <p> <b> STUDENT LOG IN </b> </p>
+                </div>
+                
+                        
+                        <!-- Admission from -->
+                
+                        <div class="r_form">
+                          <form method="post" onsubmit="sendmail(); reset(); return false;">
+                            <div class="input_wrap">
+                                <label for="yourname"><b>NAME </label>
+                                <div class="input_item">
+                                    <i class="fa fa-user" id="icon"></i>
+                                    <input type="text" name="your name" class="input" id="yourname"  required>
+                                </div>
+                                <br>
+                               
+                            <div class="input_wrap">
+                
+                              
+                              <label for="yourname"><b>COURSE</b></label>
+                              <div class="input_item">
+                               
+                                  <i class="fa fa-bars" aria-hidden="true"id="icon" ></i>
+                                <select id="course" name="cars" class="input" required>
+                                <option value="select"><b> AMURTA </b></option>
+                                <option value="bca" id="bcabatch"> RTAWHAIST </option>
+                                <option value="bca" id="bcabatch"> SPANTAMAND </option>
+                                <option value="bca" id="bcabatch"> HARAVATAT </option>
+                                <option value="bca" id="bcabatch"> VAHUMANA </option>
+                                <option value="bca" id="bcabatch"> KSHAHREWAR </option>
+                                </select>
+                                
+                                <br>
+
+                                <br>
+                                <label for="yourname">UID </label>
+                                <div class="input_item">
+                                <!-- min="1" max="2" -->
+                                <i class="fa fa-list-ol" aria-hidden="true"id="icon" ></i>
+                                <input type="number"  class="input" id="uid" placeholder="Enter the last two UID digit" >
+                              </div>
+                            </div>
+                            <BR><BR>
+                                <div class="input_wrap">
+                                    <label for="password" type="password"><b>PASSWORD </label><br>
+                                        <span class="toggle-password" onclick="togglePasswordVisibility()"></span>
+                                    <div class="input_item">
+                                        <i class="fa-fa-user" id="icon" type="password"></i>
+                                        <input type="password" name="your name" class="password-box" id="password"  required>
+                                    </div>
+                                    <br>
+                                    <br>
+                            </div>
+                            
+                            <input type="submit" class="button" value="LOGIN" onsubmit="alert">
+                
+                            <br>
+                            <br>
+                            
+                            
+                
+                                
+                           
+                        
+                </form>
+                </div>
+                </div>
+                    </div>
+                  </form>
+                  </section>
+                  
+      
+    
+    
+    <!---- form -->
+
+    <script src="login.js">
+
+</script>
+</html>
