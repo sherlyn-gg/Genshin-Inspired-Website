@@ -14,7 +14,7 @@ function togglePasswordVisibility() {
     
     }
     
-    function sendmail(){
+  function sendmail(){
         alert("form submitted successfully");
     }
             var navLinks= document.getElementById("navLinks");
